@@ -1,0 +1,53 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 20px;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  border: 0.5px solid #b9b9b9;
+  padding: 10px;
+}
+
+.active {
+  background-color: #ffddbd;
+}
+
+.color:nth-child(odd) {
+  background-color: #f3f9ff;
+}
+
+.head {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.name {
+  min-width: 365px;
+}
+
+.price {
+  min-width: 65px;
+  cursor: pointer;
+}
+
+.count {
+  cursor: pointer;
+}
+
+.inputs {
+  display: flex;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  margin-right: 35px;
+}
