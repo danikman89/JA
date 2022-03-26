@@ -1,0 +1,51 @@
+.App {
+  margin: 20px;
+  color: #7e7e7e;
+}
+
+table {
+  table-layout: fixed;
+}
+td {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+}
+
+th {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #808080;
+  text-align: left;
+}
+
+.name {
+  font-size: 14px;
+  line-height: 100%;
+  color: #000;
+  min-width: 381px;
+}
+
+.btn {
+  padding: 4px 12px;
+  font-size: 12px;
+  line-height: 12px;
+  cursor: pointer;
+  color: #7e7e7e;
+}
+
+.img {
+  padding: 6px 7px 8px 21px;
+  border-radius: 5px;
+  width: 33px;
+  height: 33px;
+}
+
+.artist {
+  min-width: 252px;
+}
+
+.count {
+  min-width: 213px;
+}
